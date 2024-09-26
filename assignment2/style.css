@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.section{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.header{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px ;
+    padding-bottom: 10px;
+}
+
+.container-form{
+    background-color: #e9f5ff;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.container-form h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.container-form .form-input-containter{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
+
+.container-form .form-input-containter label{
+    padding-top: 10px 2px;
+    font-weight: bold;
+}
+
+.container-form .form-input-containter input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.container-form button{
+    border-radius: 8px;
+    border: 1px solid gray;
+    width: 95%;
+    margin: auto;
+    margin-left: 28px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.container-form button:hover{
+    cursor: pointer;
+    background-color: #0656ab;
+}
+
+.container-employee-list{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid gray;
+}
+
+.container-employee-list h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.container-employee-list p{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.container-employee-list p span{
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container-employee-list .hr{
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.container-employee-list .employee{
+    padding: 30px;
+}
+
+.container-employee-list p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.employee-details{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 15px;  
+    border: 1px solid gray;
+    padding-bottom: 40px;
+}
+
+.employee-details h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+table{
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    padding: 100px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+
+table tbody td img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.company-location{
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 15px;
+    border: 1px solid gray;
+}
+
+.company-location h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+
